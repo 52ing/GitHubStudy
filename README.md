@@ -1,3 +1,7 @@
+git remote add origin url :  업로드할 깃 레파지토리 설정.
+git remote -v : remote 상태를 잘 설정했는지 확인
+
+
 
 
 [git Error]
@@ -22,3 +26,12 @@ error: src refspec master does not match any
         c. 해당 경로로 이동 후 ls -a or ls 명령어를 사용하여 .git 폴더 있는지 확인.
         d. 폴더 있을 경우 rm -rf .git 명령어 사용 하여 삭제 하고 다시 접속하면 초기화 버튼 나오는것을 볼 수 있다.!
     2. git clean 도 가능하지만 파일, 폴더가 모두 날라 갈 수 있으니..ㅠ
+    
+[error: unknown subcommand: `origin']
+
+입력한 명령
+git remote origin add url
+해결 방법1
+명령어 수정
+git remote add origin url
+(명령어 입력 시 add와 origin 위치 바뀐 거 수정.)
