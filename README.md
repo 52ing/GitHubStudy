@@ -1,5 +1,9 @@
-git remote add origin url :  업로드할 깃 레파지토리 설정.
+Initial Repository를 클릭하여 초기화 상태에서,
+
+
+git remote add origin url :  업로드할 깃 레파지토리 설정,
 git remote -v : remote 상태를 잘 설정했는지 확인
+git push origin master : 마스터로 푸시.
 
 
 
@@ -15,7 +19,7 @@ error: src refspec master does not match any
    4. git remote add origin 'git url'
    5. git push -u origin master
 
-이 외에 Master Branch가 없엉서 발생하는 오류는?
+이 외에 Master Branch가 없어서 발생하는 오류는?
    1. git checkout -b 'master'
    2. git push origin master
 
